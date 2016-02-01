@@ -1,0 +1,16 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.table {
+    position: absolute;
+    left: 0;
+    border: 1px solid;
+    transition: all .5s linear;  /* анімація. можна і джс, але то ти заїбешся робити + палєвно*/
+    z-index: -1;
+}
